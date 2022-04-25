@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:c031caa1-239d-4db9-bcb1-c7fec61174d6#"
+     xml:base="urn:webprotege:ontology:c031caa1-239d-4db9-bcb1-c7fec61174d6"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:c031caa1-239d-4db9-bcb1-c7fec61174d6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3RLRzTKdwuhu1mWUxKGrC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3RLRzTKdwuhu1mWUxKGrC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0h7FvRd9boF9BHOW9u19v"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jean Stoffer</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tyndale Refresh</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Establishing Home: Creating Space for a Beautiful Life with Family, Faith, and Friends</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">Establishing Home: Creating Space for a Beautiful Life with Family, Faith, and Friends</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Establishing-Home-Creating-Beautiful-Friends/dp/1496460413?ref_=Oct_d_obs_d_4539346011&amp;pd_rd_w=xU42h&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=HRPZV2BDR7V473DVMV50&amp;pd_rd_r=83efbd25-658f-4639-af23-269d61e30caa&amp;pd_rd_wg=tpfV6&amp;pd_rd_i=1496460413"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4NRnXLAeW7QmsfzQrmbXG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4NRnXLAeW7QmsfzQrmbXG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9QcoYGKbsirNeUS58WVLd8"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Paquette</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibbs Smith</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At Home: Evocative &amp; Art-Forward Interiors</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">At Home: Evocative &amp; Art-Forward Interiors</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/At-Home-Evocative-Art-Forward-Interiors/dp/1423654188?ref_=Oct_d_obs_d_4539344011&amp;pd_rd_w=12P5a&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=93NA19MEC96BFVZAGSGE&amp;pd_rd_r=ca4223ae-2717-436a-8657-7de99693551c&amp;pd_rd_wg=83syd&amp;pd_rd_i=1423654188"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R72WLjA1VBkJD43jy0vLDJl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R72WLjA1VBkJD43jy0vLDJl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCi17x6plM6wBGs8BX5rEqI"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Buildings Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7UvpaARm00Fto3TFYj9TkU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7UvpaARm00Fto3TFYj9TkU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUZ1mKvzBYFdIwZkikqaEZ"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Nonfiction Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rzKTsWeZy5PVb0ETY2qGA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7rzKTsWeZy5PVb0ETY2qGA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8OKm1tSCGawxpWpqOxgyh9"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sophie McKay</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Author</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Practical Permaculture Project: Connect to Nature and Discover the Best Organic Soil and Water Management Techniques to Design and Build your Thriving, Sustainable, Self-sufficient Garden</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">The Practical Permaculture Project: Connect to Nature and Discover the Best Organic Soil and Water Management Techniques to Design and Build your Thriving, Sustainable, Self-sufficient Garden</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Practical-Permaculture-Project-Sustainable-Self-sufficient/dp/1739735609?ref_=Oct_d_obs_d_720868&amp;pd_rd_w=odBY5&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=CB8RM2ZF3MZZVPAP2STE&amp;pd_rd_r=364c2060-5a18-43b3-98fd-596de8fa2c73&amp;pd_rd_wg=LxEQM&amp;pd_rd_i=1739735609"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xdmECnJrDZWLz1BX2jhUv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7xdmECnJrDZWLz1BX2jhUv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R72WLjA1VBkJD43jy0vLDJl"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grady Hillhouse</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No Starch Press</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering in Plain Sight: An Illustrated Field Guide to the Constructed Environment</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">Engineering in Plain Sight: An Illustrated Field Guide to the Constructed Environment</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Engineering-Plain-Sight-Illustrated-Constructed/dp/171850232X?ref_=Oct_d_obs_d_266162&amp;pd_rd_w=bvPed&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=DACWMNAPFRGRAC9JJVWC&amp;pd_rd_r=af8e3101-4975-47b3-af9f-4215eff654c7&amp;pd_rd_wg=hIFw0&amp;pd_rd_i=171850232X"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OKm1tSCGawxpWpqOxgyh9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8OKm1tSCGawxpWpqOxgyh9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCi17x6plM6wBGs8BX5rEqI"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Urban &amp; Land Use Planning Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93MW8e2lr5lc6os3HmZflX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R93MW8e2lr5lc6os3HmZflX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9QcoYGKbsirNeUS58WVLd8"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James T. Farmer</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibbs Smith</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arriving Home: A Gracious Southern Welcome</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">Arriving Home: A Gracious Southern Welcome</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Arriving-Home-Gracious-Southern-Welcome/dp/1423654137?ref_=Oct_d_obs_d_4539344011&amp;pd_rd_w=12P5a&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=93NA19MEC96BFVZAGSGE&amp;pd_rd_r=ca4223ae-2717-436a-8657-7de99693551c&amp;pd_rd_wg=83syd&amp;pd_rd_i=1423654137"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96uFnt7wzvwauhRoU6p4Fp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R96uFnt7wzvwauhRoU6p4Fp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R72WLjA1VBkJD43jy0vLDJl"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jenni Keer</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headline Accent</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Secrets of Hawthorn Place: A heartfelt and charming dual-time story of the power of love</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">The Secrets of Hawthorn Place: A heartfelt and charming dual-time story of the power of love</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Secrets-Hawthorn-Place-heartfelt-dual-time-ebook/dp/B08X4C4PV8?ref_=Oct_d_obs_d_266162&amp;pd_rd_w=bvPed&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=DACWMNAPFRGRAC9JJVWC&amp;pd_rd_r=af8e3101-4975-47b3-af9f-4215eff654c7&amp;pd_rd_wg=hIFw0&amp;pd_rd_i=B08X4C4PV8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QcoYGKbsirNeUS58WVLd8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9QcoYGKbsirNeUS58WVLd8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCi17x6plM6wBGs8BX5rEqI"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Decoration &amp; Ornament</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0h7FvRd9boF9BHOW9u19v -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB0h7FvRd9boF9BHOW9u19v">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCi17x6plM6wBGs8BX5rEqI"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Interior Design Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB2bfsyv5FDq2i38M4gxvxk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB2bfsyv5FDq2i38M4gxvxk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R72WLjA1VBkJD43jy0vLDJl"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Larry Haun</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taunton Press</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Very Efficient Carpenter: Basic Framing for Residential</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Very Efficient Carpenter: Basic Framing for Residential</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Very-Efficient-Carpenter-Residential-Construction/dp/156158326X?ref_=Oct_d_obs_d_266162&amp;pd_rd_w=bvPed&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=DACWMNAPFRGRAC9JJVWC&amp;pd_rd_r=af8e3101-4975-47b3-af9f-4215eff654c7&amp;pd_rd_wg=hIFw0&amp;pd_rd_i=156158326X"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBMLE7yS1LqkkzVgaWLPLUx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBMLE7yS1LqkkzVgaWLPLUx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0h7FvRd9boF9BHOW9u19v"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amber Lewis and Cat Chen</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clarkson Potter</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Made for Living: Collected Interiors for All Sorts of Styles</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">Made for Living: Collected Interiors for All Sorts of Styles</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Made-Living-Collected-Interiors-Styles/dp/1984823914?ref_=Oct_d_obs_d_4539346011&amp;pd_rd_w=xU42h&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=HRPZV2BDR7V473DVMV50&amp;pd_rd_r=83efbd25-658f-4639-af23-269d61e30caa&amp;pd_rd_wg=tpfV6&amp;pd_rd_i=1984823914"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOL3CGiYTJ1BBcy0M6dQ1t -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBOL3CGiYTJ1BBcy0M6dQ1t">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9QcoYGKbsirNeUS58WVLd8"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christiane Lemieux</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clarkson Potter</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Finer Things: Timeless Furniture, Textiles, and Details</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">The Finer Things: Timeless Furniture, Textiles, and Details</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Finer-Things-Timeless-Furniture-Textiles/dp/0770434290?ref_=Oct_d_obs_d_4539344011&amp;pd_rd_w=12P5a&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=93NA19MEC96BFVZAGSGE&amp;pd_rd_r=ca4223ae-2717-436a-8657-7de99693551c&amp;pd_rd_wg=83syd&amp;pd_rd_i=0770434290"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzqGblJVzdhyp2nFu8D1ai -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBzqGblJVzdhyp2nFu8D1ai">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0h7FvRd9boF9BHOW9u19v"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amy Astley</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abrams</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Architectural Digest at 100: A Century of Style</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">Architectural Digest at 100: A Century of Style</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Architectural-Digest-100-Century-Style/dp/1419733338?ref_=Oct_d_obs_d_4539346011&amp;pd_rd_w=xU42h&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=HRPZV2BDR7V473DVMV50&amp;pd_rd_r=83efbd25-658f-4639-af23-269d61e30caa&amp;pd_rd_wg=tpfV6&amp;pd_rd_i=1419733338"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUNkRMr2wpxMq0G2d3FvY7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCUNkRMr2wpxMq0G2d3FvY7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8OKm1tSCGawxpWpqOxgyh9"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam Greenfield</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verso</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radical Technologies: The Design of Everyday Life</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">Radical Technologies: The Design of Everyday Life</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Radical-Technologies-Design-Everyday-Life/dp/1784780456/ref=sr_1_1?crid=NEECJL9U2VNP&amp;keywords=Radical+Technologies%3A+The+Design+of+Everyday+Life&amp;qid=1650883974&amp;s=books&amp;sprefix=radical+technologies+the+design+of+everyday+life%2Cstripbooks-intl-ship%2C453&amp;sr=1-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCi17x6plM6wBGs8BX5rEqI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCi17x6plM6wBGs8BX5rEqI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCyIkSbRc6xgnsWYuY5MAkl"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Architecture Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCyIkSbRc6xgnsWYuY5MAkl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCyIkSbRc6xgnsWYuY5MAkl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7UvpaARm00Fto3TFYj9TkU"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Art Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDINa3aBKBqiDhM0tOcrNj3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDINa3aBKBqiDhM0tOcrNj3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8OKm1tSCGawxpWpqOxgyh9"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christopher Alexander</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1977</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxford University Press</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pattern Language: Towns, Buildings, Construction</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</dc:type>
+        <rdfs:label xml:lang="owl 2 web ontology language">A Pattern Language: Towns, Buildings, Construction</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199?ref_=Oct_d_obs_d_720868&amp;pd_rd_w=odBY5&amp;pf_rd_p=9aa64228-a828-4242-9935-e693c0cc3357&amp;pf_rd_r=CB8RM2ZF3MZZVPAP2STE&amp;pd_rd_r=364c2060-5a18-43b3-98fd-596de8fa2c73&amp;pd_rd_wg=LxEQM&amp;pd_rd_i=0195019199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUZ1mKvzBYFdIwZkikqaEZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUZ1mKvzBYFdIwZkikqaEZ">
+        <rdfs:label xml:lang="owl 2 web ontology language">Books</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
